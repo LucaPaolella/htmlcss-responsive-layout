@@ -118,7 +118,7 @@ ul{
     color: #0084fd;
 }
 
-.col>p,  .col-info>p{
+.col>p, .col-info>p{
     color: black;
     font-size: 18px;
 }
@@ -147,15 +147,23 @@ ul{
     /*main*/
 
     .col{
-        width: calc(100% / 3);
+        width: calc(100% / 4);
+        margin: 10px;
     }
 
-    .col:first-child{
-        width: calc ((100% / 3) * 2);
+    .col-doppia{
+        max-width: calc ((100% / 4) * 2);
+        display: flex;
+        justify-content: space-between;
     }
 
-    .column .row .col{
+    .row {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .col-img{
+        background-color:#b5ddff;
+        display: block;
     }
 }
