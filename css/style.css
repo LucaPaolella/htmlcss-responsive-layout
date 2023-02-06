@@ -1,0 +1,81 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*common*/
+
+:root{
+    color: #0084fd;
+    color: #b5ddff;
+    color: #9792e4;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-b{
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bottone{
+    border-radius: 30%;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+/*debug*/
+
+.debug header{
+    background-color: #0084fd;
+    color: white;
+}
+
+.flex >li{
+    line-height:50px;
+    padding: 20px;
+    font-size: 20px;
+}
+/*header*/
+
+.header-nav{
+    display: none;
+}
+
+.logo{
+    padding: 20px;
+}
+
+/*media*/
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+}
+
+@media screen and (min-width: 992px) {
+    .header-nav{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    header>.space-b{
+        justify-content: space-around;
+    }
+
+}
