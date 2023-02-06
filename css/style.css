@@ -145,12 +145,17 @@ ul{
         justify-content: space-around;
     }
     /*main*/
-    .row{
-        flex-direction:none;
-        flex-wrap: wrap;
-    }
 
     .col{
-        max-width: calc(100% / 3);
+        width: calc(100% / 3);
+    }
+
+    .col:first-child{
+        width: calc ((100% / 3) * 2);
+    }
+
+    .column .row .col{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
