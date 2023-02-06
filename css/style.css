@@ -122,6 +122,46 @@ ul{
     color: black;
     font-size: 18px;
 }
+
+/*id-strategic*/
+.container-strategic>img, .strategic-pt2>img{
+    max-width: 100%;
+}
+
+.strategic-pt2{
+    margin:30px;
+    border-radius: 10%;
+}
+
+.container-strategic{
+    background-color: #9792e4;
+    padding: 20px;
+}
+
+.container-strategic>p, .container-strategic>h2{
+    color: white;
+    margin: 30px;
+}
+
+.strategic-pt2{
+    background-color: white;
+}
+
+.arrow{
+    text-align: center;
+}
+.fa-arrow-down{
+    background-color:#9792e4;
+    color: black;
+    border: 1px solid #9792e4;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+}
+.strategic-pt2>p{
+    color: black;
+    margin: 20px;
+}
 /*media*/
 @media screen and (max-width: 480px){
 
