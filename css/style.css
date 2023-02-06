@@ -128,7 +128,26 @@ ul{
 }
 
 @media screen and (min-width:481px) and (max-width:768px){
+    /*main*/
+    /*explain*/
 
+    .col{
+        width: calc((100% / 4)* 2);
+        padding: 20px;
+    }
+
+    .col-piccole{
+        width: calc(100% / 4);
+    }
+
+    .col-doppia{
+        justify-content: space-between;
+    }
+
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -145,14 +164,18 @@ ul{
         justify-content: space-around;
     }
     /*main*/
+    /*explain*/
 
     .col{
+        width: calc((100% / 4)* 2);
+        padding: 20px;
+    }
+
+    .col-piccole{
         width: calc(100% / 4);
-        margin: 10px;
     }
 
     .col-doppia{
-        max-width: calc ((100% / 4) * 2);
         display: flex;
         justify-content: space-between;
     }
@@ -160,9 +183,5 @@ ul{
     .row {
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .col-img{
-        background-color:#b5ddff;
     }
 }
